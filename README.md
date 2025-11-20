@@ -38,3 +38,43 @@ This project is a **Hybrid Application** that runs both as a **Web Application**
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
+```
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+4. Run migrations and start server
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+   - The backend will run on http://127.0.0.1:8000/
+### Web Frontend
+	1.	Navigate to `frontend/`
+  2.	Install dependencies:
+     ```bash
+    	npm install
+    	```
+  3.	Start development server:
+     ```bash
+    	npm start
+    	```
+     -	The web app will run on http://localhost:3000/
+### Desktop App
+  1.	Navigate to desktop/
+  2.	Create a virtual environment and activate it
+  3.	Install dependencies:
+  ```bash
+     pip install -r requirements.txt
+   ```
+	4.	Run the desktop app:
+  ```bash
+  python app.py
+```
+### Sample Data
+	•	A sample CSV file is provided: sample_equipment_data.csv
+	•	Use it to test the web and desktop apps.
+### Notes
+	•	Both Web and Desktop apps consume the same Django API backend
+	•	Desktop app mirrors the Web UI for consistency
+	•	PDF report includes summary stats and charts
