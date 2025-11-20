@@ -1,0 +1,11 @@
+Equipment Name,Type,Flowrate,Pressure,Temperature
+Pump A,Pump,120,15,80
+Valve B,Valve,0,10,75
+Compressor C,Compressor,200,30,90
+Pump D,Pump,110,14,85
+Heater E,Heater,0,5,120
+Cooler F,Cooler,0,8,60
+Valve G,Valve,0,9,70
+Compressor H,Compressor,210,32,95
+Pump I,Pump,115,13,78
+Cooler J,Cooler,0,7,62
