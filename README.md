@@ -82,19 +82,25 @@ Web and Desktop mirror the same UI layout and functionality.
 ```
 web_application_screening_task/
 │
-├── backend/               # Django backend API
+├── backend/                  # Django REST API backend
 │   ├── manage.py
-│   ├── equipment_app/
-│   └── db.sqlite3
+│   ├── backend/              # Django project
+│   ├── equipment_app/        # Views, models, serializers
+│   ├── db.sqlite3
+│   └── requirements.txt
 │
-├── frontend/              # React.js web frontend
+├── frontend/                 # React.js web application
+│   ├── public/
 │   ├── src/
-│   └── package.json
+│   ├── package.json
+│   └── package-lock.json
 │
-├── desktop/               # PyQt5 desktop application
-│   └── app.py
+├── desktop/                  # PyQt5 desktop application
+│   ├── app.py
+│   └── requirements.txt
 │
-├── sample_equipment_data.csv
+├── sample_equipment_data.csv # Sample CSV for testing
+├── history.json              # Recent uploads (Desktop)
 ├── README.md
 └── .gitignore
 ```
