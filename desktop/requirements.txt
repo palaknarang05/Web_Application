@@ -1,0 +1,18 @@
+# Django Backend
+Django==4.2
+djangorestframework==3.14.0
+django-cors-headers==3.14.0
+
+# Data Handling
+pandas==2.0.3
+numpy==1.25.0
+
+# Desktop Application
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.12.2
+matplotlib==3.7.2
+fpdf==1.7.2
+
+# Optional (but commonly needed)
+requests==2.31.0
